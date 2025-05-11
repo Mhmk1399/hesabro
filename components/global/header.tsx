@@ -25,7 +25,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         {/* Navigation - Desktop */}
         <nav className="hidden md:block py-3 border-t border-green-700/30">
-          <ul className="flex justify-center space-x-reverse space-x-8">
+          <ul className="flex justify-center gap-6">
             {navItems.map((item) => (
               <motion.li
                 key={item.id}

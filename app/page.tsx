@@ -1,12 +1,12 @@
-import Header from "@/components/global/header";
-import Topbar from "@/components/global/Topbar";
+import IndustrySolutions from "@/components/global/heroSection";
+import SapphireBanner from "@/components/global/sapphireBanner";
 
 export default function Home() {
   return (
     <div>
-      <Topbar />
-      <div className="container max-w-5xl py-8 mx-auto">
-        <Header />
+      <div className="container max-w-7xl py-8 mx-auto">
+        <IndustrySolutions />
+        <SapphireBanner />
       </div>
     </div>
   );

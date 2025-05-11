@@ -53,7 +53,7 @@ const Topbar = () => {
             <input
               type="text"
               placeholder="جستجو..."
-              className="w-full pr-10 pl-4 py-2 rounded-full border border-green-900 transition-all duration-300"
+              className="w-full pr-10 pl-4 py-2 rounded-full border text-gray-700 border-green-900 transition-all duration-300"
             />
             <div className="absolute right-3 top-2.5">
               <SearchIcon />
