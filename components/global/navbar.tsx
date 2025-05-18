@@ -67,7 +67,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className={`${ray.variable} font-ray sticky top-0 z-50`} dir="rtl">
+    <div className={`${ray.variable} font-ray  top-0 z-50`} dir="rtl">
       {/* Main Navbar */}
       <motion.div
         initial={{ y: -20, opacity: 0 }}
@@ -79,7 +79,7 @@ const Navbar = () => {
             : "bg-gradient-to-l from-green-900 via-green-800 to-green-900"
         }`}
       >
-        <div className="container mx-auto px-4">
+        <div className=" mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <motion.div
@@ -100,8 +100,8 @@ const Navbar = () => {
             </motion.div>
 
             {/* Navigation - Desktop */}
-            <nav className="hidden md:block">
-              <ul className="flex items-center space-x-6 space-x-reverse">
+            <nav className="hidden md:block w-full">
+              <ul className="flex justify-center items-center gap-2">
                 {navItems.map((item) => (
                   <motion.li
                     key={item.id}

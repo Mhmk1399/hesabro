@@ -6,7 +6,6 @@ import { useState } from "react";
 import { navItems } from "../../lib/componentsData";
 
 const Topbar = () => {
-  const [hoveredItem, setHoveredItem] = useState<number | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {

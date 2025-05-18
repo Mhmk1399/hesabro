@@ -7,12 +7,9 @@ import { navItems } from "../../lib/componentsData";
 // Sample navigation data with Persian text
 
 const Header = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState<number | null>(null);
 
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
+ 
 
   return (
     <motion.header
